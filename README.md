@@ -14,7 +14,9 @@ Upcoming Historic Multilingual and Monolingual ELECTRA Models. Following languag
 
 # Changelog
 
-* 25.05.2022: Initial version of this repo.
+* 10.06.2023: BERT, ConvBERT and ELECTRA models are fully trained, evaluated and uploaded on the Hugging Face Model Hub.
+              Results on downstream tasks can be found [here](bench/README.md).
+* 25.05.2023: Initial version of this repo.
 
 # Acknowledgements
 
