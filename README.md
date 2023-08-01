@@ -13,6 +13,13 @@ The following languages are covered:
 * Dutch (Delpher Corpus)
 * Norwegian (NCC Corpus)
 
+# Architecture
+
+We pretrain a "Training ELECTRA Augmented with Multi-word Selection"
+([TEAMS](https://aclanthology.org/2021.findings-acl.219/)) model:
+
+![hmTEAMS Overview](hmteams_overview.svg)
+
 # Changelog
 
 * 01.08.2023: hmTEAMS organization can be found on the [Model Hub](https://huggingface.co/hmteams).
