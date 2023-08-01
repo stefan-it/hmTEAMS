@@ -21,6 +21,13 @@ $ git clone https://github.com/stefan-it/hmTEAMS.git
 $ cd hmTEAMS/bench
 ```
 
+Authorize via Hugging Face CLI (needed because hmTEAMS is currently only available after approval):
+
+```bash
+# Use access token from https://huggingface.co/settings/tokens
+$ hugging-cli login
+```
+
 We use a config-driven hyper-parameter search. The script [`flair-fine-tuner.py`](flair-fine-tuner.py) can be used to
 fine-tune NER models from our Model Zoo.
 
