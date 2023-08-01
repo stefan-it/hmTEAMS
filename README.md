@@ -2,7 +2,8 @@
 
 [![🤗](logo.jpeg "🤗")](https://github.com/stefan-it/hmTEAMS)
 
-Upcoming Historic Multilingual and Monolingual TEAMS Models. Following languages will be covered:
+Historic Multilingual and Monolingual [TEAMS](https://aclanthology.org/2021.findings-acl.219/) Models.
+The following languages are covered:
 
 * English (British Library Corpus - Books)
 * German (Europeana Newspaper)
