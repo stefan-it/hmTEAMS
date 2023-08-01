@@ -92,7 +92,7 @@ def run_experiment(seed: int, batch_size: int, epoch: int, learning_rate: float,
     datasets = "-".join([dataset for dataset in hipe_datasets])
 
     trainer.fine_tune(
-        f"hipe2022-{datasets}-{hf_model}-bs{batch_size}-ws{context_size}-e{epoch}-lr{learning_rate}-pooling{subword_pooling}-layers{layers}-crf{use_crf}-{seed}",
+        f"hmbench-{datasets}-{hf_model}-bs{batch_size}-ws{context_size}-e{epoch}-lr{learning_rate}-pooling{subword_pooling}-layers{layers}-crf{use_crf}-{seed}",
         learning_rate=learning_rate,
         mini_batch_size=batch_size,
         max_epochs=epoch,
