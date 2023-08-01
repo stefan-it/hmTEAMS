@@ -1,21 +1,21 @@
-# hmELECTRA
+# hmTEAMS
 
 [![🤗](logo.jpeg "🤗")](https://github.com/stefan-it/hmELECTRA)
 
-Upcoming Historic Multilingual and Monolingual ELECTRA Models. Following languages will be covered:
+Upcoming Historic Multilingual and Monolingual TEAMS Models. Following languages will be covered:
 
 * English (British Library Corpus - Books)
 * German (Europeana Newspaper)
 * French (Europeana Newspaper)
-* Finnish (Europeana Newspaper)
-* Swedish (Europeana Newspaper)
+* Finnish (Europeana Newspaper, Digilib)
+* Swedish (Europeana Newspaper, Digilib)
 * Dutch (Delpher Corpus)
-* Norwegian (NCC)
+* Norwegian (NCC Corpus)
 
 # Changelog
 
-* 10.06.2023: BERT, ConvBERT and ELECTRA models are fully trained, evaluated and uploaded on the Hugging Face Model Hub.
-              Results on downstream tasks can be found [here](bench/README.md).
+* 01.08.2023: hmTEAMS organization can be found on the [Model Hub](https://huggingface.co/hmteams).
+              More information of how to access trained hmTEAMS models are coming soon.
 * 25.05.2023: Initial version of this repo.
 
 # Acknowledgements
