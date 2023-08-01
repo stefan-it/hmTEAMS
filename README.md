@@ -1,6 +1,6 @@
 # hmTEAMS
 
-[![🤗](logo.jpeg "🤗")](https://github.com/stefan-it/hmELECTRA)
+[![🤗](logo.jpeg "🤗")](https://github.com/stefan-it/hmTEAMS)
 
 Upcoming Historic Multilingual and Monolingual TEAMS Models. Following languages will be covered:
 
