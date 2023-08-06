@@ -20,8 +20,14 @@ We pretrain a "Training ELECTRA Augmented with Multi-word Selection"
 
 ![hmTEAMS Overview](hmteams_overview.svg)
 
+# Results
+
+We perform experiments on various historic NER datasets, such as HIPE-2022 or ICDAR Europeana.
+All results incl. hyper-parameters can be found [here](bench/README).
+
 # Changelog
 
+* 06.08.2023: Evaluation on various historic NER datasets are compledted. Results can be found [here](bench/README).
 * 01.08.2023: hmTEAMS organization can be found on the [Model Hub](https://huggingface.co/hmteams).
               More information of how to access trained hmTEAMS models are coming soon.
 * 25.05.2023: Initial version of this repo.
