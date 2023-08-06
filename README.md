@@ -25,6 +25,15 @@ We pretrain a "Training ELECTRA Augmented with Multi-word Selection"
 We perform experiments on various historic NER datasets, such as HIPE-2022 or ICDAR Europeana.
 All results incl. hyper-parameters can be found [here](bench/README).
 
+# Release
+
+Our pretrained hmTEAMS model can be obtained from the Hugging Face Model Hub. Because of complicated
+license issues (that needs to be figured out), the model is only available by requesting access from
+Model Hub:
+
+* [hmTEAMS Discriminator](https://huggingface.co/hmteams/teams-base-historic-multilingual-discriminator)
+* [hmTEAMS Generator](https://huggingface.co/hmteams/teams-base-historic-multilingual-generator)
+
 # Changelog
 
 * 06.08.2023: Evaluation on various historic NER datasets are compledted. Results can be found [here](bench/README).
