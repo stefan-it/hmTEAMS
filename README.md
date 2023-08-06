@@ -20,6 +20,10 @@ We pretrain a "Training ELECTRA Augmented with Multi-word Selection"
 
 ![hmTEAMS Overview](hmteams_overview.svg)
 
+# Pretraining
+
+We pretrain the hmTEAMS model on a v3-32 TPU Pod. All details can be found [here](pretraining.md).
+
 # Results
 
 We perform experiments on various historic NER datasets, such as HIPE-2022 or ICDAR Europeana.
