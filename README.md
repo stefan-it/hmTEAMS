@@ -38,6 +38,18 @@ Model Hub:
 * [hmTEAMS Discriminator](https://huggingface.co/hmteams/teams-base-historic-multilingual-discriminator)
 * [hmTEAMS Generator](https://huggingface.co/hmteams/teams-base-historic-multilingual-generator)
 
+## Fine-tuned Models
+
+We release the following models, trained on various Historic NER Datasets (HIPE-2002, ICDAR):
+
+* [AjMC English (HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-ajmc-en)
+* [AjMC German (HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-ajmc-de)
+* [AjMC French (HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-ajmc-fr)
+* [Finnish (NewsEye, HIPE-2020)](https://huggingface.co/hmteams/flair-hipe-2022-newseye-fi)
+* [Swedish (NewsEye, HIPE-2020)](https://huggingface.co/hmteams/flair-hipe-2022-newseye-sv)
+* [French (ICDAR-Europeana)](https://huggingface.co/hmteams/flair-icdar-fr)
+* [Dutch (ICDAR-Europeama)](https://huggingface.co/hmteams/flair-icdar-nl)
+
 # Changelog
 
 * 06.08.2023: Evaluation on various historic NER datasets are completed. Results can be found [here](bench/README.md).
