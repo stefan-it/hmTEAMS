@@ -52,6 +52,7 @@ We release the following models, trained on various Historic NER Datasets (HIPE-
 
 # Changelog
 
+* 27.08.2023: Evaluation on [LeTemps](https://github.com/hipe-eval/HIPE-2022-data/blob/main/documentation/README-letemps.md) dataset is added [here](bench/README.md).
 * 06.08.2023: Evaluation on various historic NER datasets are completed. Results can be found [here](bench/README.md).
 * 01.08.2023: hmTEAMS organization can be found on the [Model Hub](https://huggingface.co/hmteams).
               More information of how to access trained hmTEAMS models are coming soon.
