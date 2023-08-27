@@ -25,7 +25,7 @@ Authorize via Hugging Face CLI (needed because hmTEAMS is currently only availab
 
 ```bash
 # Use access token from https://huggingface.co/settings/tokens
-$ hugging-cli login
+$ huggingface-cli login login
 ```
 
 We use a config-driven hyper-parameter search. The script [`flair-fine-tuner.py`](flair-fine-tuner.py) can be used to
