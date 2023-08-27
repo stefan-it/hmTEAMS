@@ -40,7 +40,7 @@ Model Hub:
 
 ## Fine-tuned Models
 
-We release the following models, trained on various Historic NER Datasets (HIPE-2002, ICDAR):
+We release the following models, trained on various Historic NER Datasets (HIPE-2020, HIPE-2022, ICDAR):
 
 * [AjMC English (HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-ajmc-en)
 * [AjMC German (HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-ajmc-de)
