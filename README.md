@@ -49,6 +49,7 @@ We release the following models, trained on various Historic NER Datasets (HIPE-
 * [Swedish (NewsEye, HIPE-2020)](https://huggingface.co/hmteams/flair-hipe-2022-newseye-sv)
 * [French (ICDAR-Europeana)](https://huggingface.co/hmteams/flair-icdar-fr)
 * [Dutch (ICDAR-Europeana)](https://huggingface.co/hmteams/flair-icdar-nl)
+* [French (LeTemps, HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-letemps-fr)
 
 # Changelog
 
