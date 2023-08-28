@@ -18,7 +18,7 @@ from flair import set_seed
 from flair.models import SequenceTagger
 from flair.trainers import ModelTrainer
 
-from utils import prepare_ajmc_corpus, prepare_clef_2020_corpus, prepare_newseye_fi_sv_corpus
+from utils import prepare_ajmc_corpus, prepare_clef_2020_corpus, prepare_newseye_fi_sv_corpus, prepare_newseye_de_fr_corpus
 
 logger = logging.getLogger("flair")
 logger.setLevel(level="INFO")
@@ -47,8 +47,10 @@ def run_experiment(seed: int, batch_size: int, epoch: int, learning_rate: float,
             preproc_fn = prepare_ajmc_corpus
         elif dataset_name == "hipe2020":
             preproc_fn = prepare_clef_2020_corpus
-        elif dataset_name == "newseye":
+        elif dataset_name == "newseye" and language in ["fi", "sv"]:
             preproc_fn = prepare_newseye_fi_sv_corpus
+        elif dataset_name == "newseye" and language in ["de", "fr"]:
+            preproc_fn = prepare_newseye_de_fr_corpus
 
         if dataset_name == "icdar":
             corpus_list.append(NER_ICDAR_EUROPEANA(language=language))
