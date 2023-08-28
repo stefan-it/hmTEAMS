@@ -38,7 +38,7 @@ shows an overview of used datasets.
 
 | Language | Datasets
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| English  | [AjMC](https://github.com/hipe-eval/HIPE-2022-data/blob/main/documentation/README-ajmc.md) - [TopRes19th (soon)](https://github.com/hipe-eval/HIPE-2022-data/blob/main/documentation/README-topres19th.md)                                                                       |
+| English  | [AjMC](https://github.com/hipe-eval/HIPE-2022-data/blob/main/documentation/README-ajmc.md) - [TopRes19th](https://github.com/hipe-eval/HIPE-2022-data/blob/main/documentation/README-topres19th.md)                                                                              |
 | German   | [AjMC](https://github.com/hipe-eval/HIPE-2022-data/blob/main/documentation/README-ajmc.md)                                                                                                                                                                                       |
 | French   | [AjMC](https://github.com/hipe-eval/HIPE-2022-data/blob/main/documentation/README-ajmc.md) - [ICDAR-Europeana](https://github.com/stefan-it/historic-domain-adaptation-icdar) - [LeTemps](https://github.com/hipe-eval/HIPE-2022-data/blob/main/documentation/README-letemps.md) |
 | Finnish  | [NewsEye](https://github.com/hipe-eval/HIPE-2022-data/blob/main/documentation/README-newseye.md)                                                                                                                                                                                 |
@@ -47,7 +47,7 @@ shows an overview of used datasets.
 
 # Results
 
-| Model                                                                                  | English AjMC | German AjMC  | French AjMC  | Finnish NewsEye | Swedish NewsEye | Dutch ICDAR  | French ICDAR | French LeTemps | Avg.      |
-|----------------------------------------------------------------------------------------|--------------|--------------|--------------|-----------------|-----------------|--------------|--------------|----------------|-----------|
-| hmBERT (32k) [Schweter et al.](https://ceur-ws.org/Vol-3180/paper-87.pdf)              | 85.36 ± 0.94 | 89.08 ± 0.09 | 85.10 ± 0.60 | 77.28 ± 0.37    | 82.85 ± 0.83    | 82.11 ± 0.61 | 77.21 ± 0.16 | 65.73 ± 0.56   |   80.59   |
-| hmTEAMS (Ours)                                                                         | 86.41 ± 0.36 | 88.64 ± 0.42 | 85.41 ± 0.67 | 79.27 ± 1.88    | 82.78 ± 0.60    | 88.21 ± 0.39 | 78.03 ± 0.39 | 66.71 ± 0.46   | **81.93** |
+| Model                                                                     | English AjMC | German AjMC  | French AjMC  | Finnish NewsEye | Swedish NewsEye | Dutch ICDAR  | French ICDAR | French LeTemps | English TopRes19th | Avg.      |
+|---------------------------------------------------------------------------|--------------|--------------|--------------|-----------------|-----------------|--------------|--------------|----------------|--------------------|-----------|
+| hmBERT (32k) [Schweter et al.](https://ceur-ws.org/Vol-3180/paper-87.pdf) | 85.36 ± 0.94 | 89.08 ± 0.09 | 85.10 ± 0.60 | 77.28 ± 0.37    | 82.85 ± 0.83    | 82.11 ± 0.61 | 77.21 ± 0.16 | 65.73 ± 0.56   |    80.94 ± 0.86    |   80.63   |
+| hmTEAMS (Ours)                                                            | 86.41 ± 0.36 | 88.64 ± 0.42 | 85.41 ± 0.67 | 79.27 ± 1.88    | 82.78 ± 0.60    | 88.21 ± 0.39 | 78.03 ± 0.39 | 66.71 ± 0.46   |    81.36 ± 0.59    | **81.87** |
