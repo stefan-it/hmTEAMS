@@ -50,9 +50,11 @@ We release the following models, trained on various Historic NER Datasets (HIPE-
 * [French (ICDAR-Europeana)](https://huggingface.co/hmteams/flair-icdar-fr)
 * [Dutch (ICDAR-Europeana)](https://huggingface.co/hmteams/flair-icdar-nl)
 * [French (LeTemps, HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-letemps-fr)
+* [English (TopRes19th, HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-topres19th-en)
 
 # Changelog
 
+* 28.08.2023: Evaluation on [TopRes19th](https://github.com/hipe-eval/HIPE-2022-data/blob/main/documentation/README-topres19th.md) dataset added [here](bench/README.md).
 * 27.08.2023: Evaluation on [LeTemps](https://github.com/hipe-eval/HIPE-2022-data/blob/main/documentation/README-letemps.md) dataset is added [here](bench/README.md).
 * 06.08.2023: Evaluation on various historic NER datasets are completed. Results can be found [here](bench/README.md).
 * 01.08.2023: hmTEAMS organization can be found on the [Model Hub](https://huggingface.co/hmteams).
