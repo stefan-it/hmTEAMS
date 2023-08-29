@@ -42,15 +42,14 @@ Model Hub:
 
 We release the following models, trained on various Historic NER Datasets (HIPE-2020, HIPE-2022, ICDAR):
 
-* [AjMC English (HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-ajmc-en)
-* [AjMC German (HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-ajmc-de)
-* [AjMC French (HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-ajmc-fr)
-* [Finnish (NewsEye, HIPE-2020)](https://huggingface.co/hmteams/flair-hipe-2022-newseye-fi)
-* [Swedish (NewsEye, HIPE-2020)](https://huggingface.co/hmteams/flair-hipe-2022-newseye-sv)
-* [French (ICDAR-Europeana)](https://huggingface.co/hmteams/flair-icdar-fr)
-* [Dutch (ICDAR-Europeana)](https://huggingface.co/hmteams/flair-icdar-nl)
-* [French (LeTemps, HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-letemps-fr)
-* [English (TopRes19th, HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-topres19th-en)
+| Language  | Model(s) |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| English   | [AjMC (HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-ajmc-en) - [TopRes19th (HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-topres19th-en)                                                              |
+| German    | [AjMC (HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-ajmc-de)                                                                                                                                                       |
+| French    | [AjMC (HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-ajmc-fr) - [ICDAR-Europeana](https://huggingface.co/hmteams/flair-icdar-fr) - [LeTemps (HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-letemps-fr) |
+| Finnish   | [NewsEye (HIPE-2020)](https://huggingface.co/hmteams/flair-hipe-2022-newseye-fi)                                                                                                                                                 |
+| Swedish   | [NewsEye (HIPE-2020)](https://huggingface.co/hmteams/flair-hipe-2022-newseye-sv)                                                                                                                                                 |
+| Dutch     | [ICDAR-Europeana](https://huggingface.co/hmteams/flair-icdar-nl)                                                                                                                                                                 |
 
 # Changelog
 
