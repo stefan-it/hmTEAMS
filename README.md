@@ -43,16 +43,17 @@ Model Hub:
 We release the following models, trained on various Historic NER Datasets (HIPE-2020, HIPE-2022, ICDAR):
 
 | Language  | Model(s) |
-| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| English   | [AjMC (HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-ajmc-en) - [TopRes19th (HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-topres19th-en)                                                              |
-| German    | [AjMC (HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-ajmc-de)                                                                                                                                                       |
-| French    | [AjMC (HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-ajmc-fr) - [ICDAR-Europeana](https://huggingface.co/hmteams/flair-icdar-fr) - [LeTemps (HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-letemps-fr) |
-| Finnish   | [NewsEye (HIPE-2020)](https://huggingface.co/hmteams/flair-hipe-2022-newseye-fi)                                                                                                                                                 |
-| Swedish   | [NewsEye (HIPE-2020)](https://huggingface.co/hmteams/flair-hipe-2022-newseye-sv)                                                                                                                                                 |
-| Dutch     | [ICDAR-Europeana](https://huggingface.co/hmteams/flair-icdar-nl)                                                                                                                                                                 |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| English   | [AjMC (HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-ajmc-en) - [TopRes19th (HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-topres19th-en)                                                                                                                                    |
+| German    | [AjMC (HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-ajmc-de) - [NewsEye](https://huggingface.co/hmteams/flair-hipe-2022-newseye-de)                                                                                                                                                      |
+| French    | [AjMC (HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-ajmc-fr) - [ICDAR-Europeana](https://huggingface.co/hmteams/flair-icdar-fr) - [LeTemps (HIPE-2022)](https://huggingface.co/hmteams/flair-hipe-2022-letemps-fr) - [NewsEye](https://huggingface.co/hmteams/flair-hipe-2022-newseye-fr)|
+| Finnish   | [NewsEye (HIPE-2020)](https://huggingface.co/hmteams/flair-hipe-2022-newseye-fi)                                                                                                                                                                                                                       |
+| Swedish   | [NewsEye (HIPE-2020)](https://huggingface.co/hmteams/flair-hipe-2022-newseye-sv)                                                                                                                                                                                                                       |
+| Dutch     | [ICDAR-Europeana](https://huggingface.co/hmteams/flair-icdar-nl)                                                                                                                                                                                                                                       |
 
 # Changelog
 
+* 01.09.2023: Evaluation on German and French [NewsEye](https://github.com/hipe-eval/HIPE-2022-data/blob/main/documentation/README-newseye.md) datasets added [here](bench/README.md).
 * 28.08.2023: Evaluation on [TopRes19th](https://github.com/hipe-eval/HIPE-2022-data/blob/main/documentation/README-topres19th.md) dataset added [here](bench/README.md).
 * 27.08.2023: Evaluation on [LeTemps](https://github.com/hipe-eval/HIPE-2022-data/blob/main/documentation/README-letemps.md) dataset is added [here](bench/README.md).
 * 06.08.2023: Evaluation on various historic NER datasets are completed. Results can be found [here](bench/README.md).
