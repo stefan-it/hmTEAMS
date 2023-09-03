@@ -25,11 +25,27 @@ Authorize via Hugging Face CLI (needed because hmTEAMS is currently only availab
 
 ```bash
 # Use access token from https://huggingface.co/settings/tokens
-$ huggingface-cli login login
+$ huggingface-cli login
 ```
 
 We use a config-driven hyper-parameter search. The script [`flair-fine-tuner.py`](flair-fine-tuner.py) can be used to
 fine-tune NER models from our Model Zoo.
+
+Additionally, we provide a script that uses Hugging Face [AutoTrain Advanced (Space Runner)](https://github.com/huggingface/autotrain-advanced)
+to fine-tung models. The following snippet shows an example:
+
+```bash
+$ pip3 install autotrain-advanced
+$ export HF_TOKEN="" # Get token from: https://huggingface.co/settings/tokens
+$ autotrain spacerunner --project-name "flair-hipe2022-de-hmteams" \
+  --script-path /home/stefan/Repositories/hmTEAMS/bench \
+  --username stefan-it \
+  --token $HF_TOKEN \
+  --backend spaces-t4s \
+  --env "CONFIG=configs/hipe2020/de/hmteams.json;HF_TOKEN=$HF_TOKEN;REPO_NAME=stefan-it/autotrain-flair-hipe2022-de-hmteams"
+```
+
+The concrete implementation can be found in [`script.py`](script.py).
 
 # Benchmark
 
