@@ -30,6 +30,8 @@ def run_experiment(seed: int, batch_size: int, epoch: int, learning_rate: float,
     context_size = json_config["context_size"]
     layers = json_config["layers"] if "layers" in json_config else "-1"
     use_crf = json_config["use_crf"] if "use_crf" in json_config else False
+    use_gpu_plugin = json_config["use_gpu_plugin"] if "use_gpu_plugin" in json_config else False
+    use_tensorboard_logger = json_config["use_tensorboard_logger"] if "use_tensorboard_logger" in json_config else False
 
     # Set seed for reproducibility
     set_seed(seed)
@@ -92,8 +94,20 @@ def run_experiment(seed: int, batch_size: int, epoch: int, learning_rate: float,
 
     datasets = "-".join([dataset for dataset in hipe_datasets])
 
+    output_path = f"hmbench-{datasets}-{hf_model}-bs{batch_size}-ws{context_size}-e{epoch}-lr{learning_rate}-pooling{subword_pooling}-layers{layers}-crf{use_crf}-{seed}"
+
+    plugins = []
+
+    if use_gpu_plugin:
+        from plugins.gpu_stats import GpuStatsPlugin
+        plugins.append(GpuStatsPlugin())
+
+    if use_tensorboard_logger:
+        from flair.trainers.plugins.loggers.tensorboard import TensorboardLogger
+        plugins.append(TensorboardLogger(log_dir="./runs", comment=output_path))
+
     trainer.fine_tune(
-        f"hmbench-{datasets}-{hf_model}-bs{batch_size}-ws{context_size}-e{epoch}-lr{learning_rate}-pooling{subword_pooling}-layers{layers}-crf{use_crf}-{seed}",
+        output_path,
         learning_rate=learning_rate,
         mini_batch_size=batch_size,
         max_epochs=epoch,
@@ -101,6 +115,7 @@ def run_experiment(seed: int, batch_size: int, epoch: int, learning_rate: float,
         embeddings_storage_mode='none',
         weight_decay=0.,
         use_final_model_for_eval=False,
+        plugins=plugins,
     )
 
     # Finally, print model card for information
