@@ -2,7 +2,7 @@
 
 [![🤗](logo.jpeg "🤗")](https://github.com/stefan-it/hmTEAMS)
 
-Historic Multilingual and Monolingual [TEAMS](https://aclanthology.org/2021.findings-acl.219/) Models.
+Historical Multilingual and Monolingual [TEAMS](https://aclanthology.org/2021.findings-acl.219/) Models.
 The following languages are covered:
 
 * English (British Library Corpus - Books)
