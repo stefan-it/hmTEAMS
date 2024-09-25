@@ -31,9 +31,7 @@ All results incl. hyper-parameters can be found [here](bench/README.md).
 
 # Release
 
-Our pretrained hmTEAMS model can be obtained from the Hugging Face Model Hub. Because of complicated
-license issues (that needs to be figured out), the model is only available by requesting access from
-Model Hub:
+Our pretrained hmTEAMS model can be obtained from the Hugging Face Model Hub:
 
 * [hmTEAMS Discriminator](https://huggingface.co/hmteams/teams-base-historic-multilingual-discriminator)
 * [hmTEAMS Generator](https://huggingface.co/hmteams/teams-base-historic-multilingual-generator)
@@ -53,6 +51,7 @@ We release the following models, trained on various Historic NER Datasets (HIPE-
 
 # Changelog
 
+* 25.09.2024: All hmTEAMS models are now released under permissive Apache 2.0 license.
 * 08.09.2023: Evaluation on German and French [HIPE-2020](https://github.com/hipe-eval/HIPE-2022-data/blob/main/documentation/README-hipe2020.md) datasets added [here](bench/README.md).
 * 01.09.2023: Evaluation on German and French [NewsEye](https://github.com/hipe-eval/HIPE-2022-data/blob/main/documentation/README-newseye.md) datasets added [here](bench/README.md).
 * 28.08.2023: Evaluation on [TopRes19th](https://github.com/hipe-eval/HIPE-2022-data/blob/main/documentation/README-topres19th.md) dataset added [here](bench/README.md).
